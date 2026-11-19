@@ -1,0 +1,250 @@
+{
+  "title": "Livello 2 – Confronto Excel",
+  "description": "Comune di Borgoverde (inventato) · Livello 2 del cruscotto dell'ufficio: il confronto degli impegni di spesa di due anni, con le trappole da trovare.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "confronto",
+      "title": "Confronto degli impegni",
+      "description": "Carica il file dell'anno precedente e quello dell'anno corrente, oppure usa i dati di esempio. Il confronto è per numero di impegno: righe nuove, sparite e con importo cambiato, totali per capitolo e i capitoli cresciuti di più.",
+      "metrics": [],
+      "columns": [
+        "Anno",
+        "Impegno",
+        "Capitolo",
+        "Fornitore",
+        "Oggetto",
+        "Importo"
+      ],
+      "rows": [
+        [
+          "2025",
+          "101",
+          "1010",
+          "Rossi S.r.l.",
+          "Cancelleria uffici",
+          "3200"
+        ],
+        [
+          "2025",
+          "102",
+          "1020",
+          "Edil Verde Snc",
+          "Manutenzione strade",
+          "28500"
+        ],
+        [
+          "2025",
+          "103",
+          "1030",
+          "Bianchi Arredi",
+          "Arredi scuola",
+          "7400"
+        ],
+        [
+          "2025",
+          "104",
+          "1040",
+          "Studio Alfa",
+          "Consulenza paghe",
+          "5600"
+        ],
+        [
+          "2025",
+          "105",
+          "1010",
+          "Rossi S.r.l.",
+          "Toner stampanti",
+          "\"1.250,50\""
+        ],
+        [
+          "2025",
+          "106",
+          "1050",
+          "Luce Srl",
+          "Illuminazione pubblica",
+          "41000"
+        ],
+        [
+          "2025",
+          "107",
+          "1060",
+          "Mensa Sì Coop",
+          "Mensa scolastica",
+          "62000"
+        ],
+        [
+          "2025",
+          "108",
+          "1070",
+          "Pulito Spa",
+          "Pulizia edifici",
+          "38000"
+        ],
+        [
+          "2025",
+          "109",
+          "1020",
+          "Asfalti Nord",
+          "Asfalti",
+          "19800"
+        ],
+        [
+          "2025",
+          "110",
+          "1080",
+          "Info Pa Srl",
+          "Software protocollo",
+          "8900"
+        ],
+        [
+          "2026",
+          "101",
+          "1010",
+          "ROSSI SRL",
+          "Cancelleria uffici",
+          "3650"
+        ],
+        [
+          "2026",
+          "102",
+          "1020",
+          "Edil Verde Snc",
+          "Manutenzione strade",
+          "31200"
+        ],
+        [
+          "2026",
+          "103",
+          "1030",
+          "Bianchi Arredi",
+          "Arredi scuola",
+          "7400"
+        ],
+        [
+          "2026",
+          "105",
+          "1010",
+          "Rossi s.r.l",
+          "Toner stampanti",
+          "\"1250.50\""
+        ],
+        [
+          "2026",
+          "106",
+          "1050",
+          "Luce Srl",
+          "Illuminazione pubblica",
+          "39500"
+        ],
+        [
+          "2026",
+          "107",
+          "1060",
+          "Mensa Sì Coop",
+          "Mensa scolastica",
+          "66500"
+        ],
+        [
+          "2026",
+          "108",
+          "1070",
+          "Pulito Spa",
+          "Pulizia edifici",
+          "41800"
+        ],
+        [
+          "2026",
+          "108",
+          "1070",
+          "Pulito Spa",
+          "Pulizia edifici",
+          "41800"
+        ],
+        [
+          "2026",
+          "110",
+          "1080",
+          "Info Pa Srl",
+          "Software protocollo",
+          "12400"
+        ],
+        [
+          "2026",
+          "111",
+          "1090",
+          "Verde Pubblico Coop",
+          "Sfalcio aree verdi",
+          "14200"
+        ],
+        [
+          "2026",
+          "112",
+          "1080",
+          "Cloud Comuni Srl",
+          "Conservazione digitale",
+          "6300"
+        ]
+      ],
+      "form": [],
+      "kind": "compare",
+      "compare": {
+        "before": "2025",
+        "after": "2026",
+        "fileColumn": "Anno",
+        "fields": {
+          "key": {
+            "label": "Impegno",
+            "synonyms": [
+              "numero impegno",
+              "n impegno",
+              "nr impegno",
+              "num impegno",
+              "impegno n",
+              "codice impegno"
+            ]
+          },
+          "group": {
+            "label": "Capitolo",
+            "synonyms": [
+              "cap",
+              "capitolo di spesa",
+              "numero capitolo",
+              "n capitolo"
+            ]
+          },
+          "subject": {
+            "label": "Fornitore",
+            "synonyms": [
+              "ditta",
+              "beneficiario",
+              "creditore",
+              "ragione sociale",
+              "impresa"
+            ]
+          },
+          "description": {
+            "label": "Oggetto",
+            "synonyms": [
+              "descrizione",
+              "causale",
+              "oggetto della spesa"
+            ]
+          },
+          "amount": {
+            "label": "Importo",
+            "synonyms": [
+              "importo euro",
+              "importo impegnato",
+              "euro",
+              "valore",
+              "totale",
+              "somma"
+            ]
+          }
+        },
+        "groupPlural": "Capitoli"
+      }
+    }
+  ]
+}
